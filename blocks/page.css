@@ -1,17 +1,17 @@
-/* Estilos para pantallas pequeñas (móviles) */
+
 .page {
   font-size: 14px;
   padding: 10px;
   background-color: rgb(27, 27, 27);
 }
 
-/* Ajustes generales para el texto */
+
 p, h2, h3 {
   margin: 10px 0;
   line-height: 1.5;
 }
 
-/* Media query para pantallas medianas (tabletas) */
+
 @media (min-width: 768px) {
   .page {
       font-size: 16px;
@@ -28,7 +28,7 @@ p, h2, h3 {
   }
 }
 
-/* Media query para pantallas grandes (escritorios) */
+
 @media (min-width: 1024px) {
   .page {
       font-size: 18px;
