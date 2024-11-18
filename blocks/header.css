@@ -1,7 +1,17 @@
 .header{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    position: center;
+    
 }
 .header_logo{
 width: 30px;
+}
+.page_name{
+    display: flex;
+
+color: white;
+}
+.header__title{
+    color: white;
 }
