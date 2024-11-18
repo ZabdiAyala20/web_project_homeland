@@ -1,8 +1,8 @@
 .header {
     display: flex;
-    flex-direction: column; /* Mantener los elementos en columna si es lo que buscas */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     
 }
 .header_logo {

@@ -1,4 +1,39 @@
 .content__image{
 display: block;
-margin: auto;
+margin: 0 auto;
+width: 90%;
+}
+.main_container-box {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+  
+}
+.main__text-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 5%;
+}
+.text_title{
+display: flex;
+font-size: 70px;
+letter-spacing: 2px;
+}
+.text{
+
+}
+.author__text{
+
+}
+@media (max-width:768px){
+    .content__image{
+        width: 100%;
+    }
+    .main__text-box{
+        width: 95%;
+    }
 }
