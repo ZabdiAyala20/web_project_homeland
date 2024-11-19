@@ -20,7 +20,8 @@ line-height: 1;
     line-height: 1.5;
 }
 .author__text{
-
+display: flex;
+justify-content: flex-end;
 }
 @media (max-width:768px){
   
