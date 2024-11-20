@@ -4,27 +4,30 @@
     flex-direction: column;
     max-width: 100%;
     width: 70%;
-    color: white;
+    color: #ffffff;
     overflow: auto;
 }
 .text_title{
+    margin-top: 5%;
 display: flex;
 font-size: 69px;
 letter-spacing: 2px;
 line-height: 1;
 }
 .text{
-    font-size: 2rem;
+    font-size: 24px;
     max-width: 650px;
     margin-top: 50px;
-    line-height: 1.5;
+    line-height: 34px;
+    letter-spacing: 1.5px;
 }
-.author__text{
-display: flex;
-justify-content: flex-end;
+.author_text{   
+font-size: 24px;
+line-height: 34px;
+text-align: right;
+padding: 5%;
 }
 @media (max-width:768px){
-  
     .main__text-box{
         width: 95%;
     }

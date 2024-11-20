@@ -43,7 +43,8 @@
     font-size: 30px;
     justify-content: center;
     text-align: center;
- color: white;   
+ color: #ffffff;   
+ margin-bottom: 5%;
 }
 .word_down{
     display: flex;
@@ -66,5 +67,11 @@
     .content__image{
         width: 100%;
         
+    }
+    .page_name{
+        font-size: 15px;
+    }
+    .header__subtitle{
+        font-size: 20px;
     }
 }
