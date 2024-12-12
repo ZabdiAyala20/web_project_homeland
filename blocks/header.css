@@ -4,20 +4,7 @@
     justify-content: center; 
     align-items: center; 
 }
-.logo__container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 255px;
-    height: 69px;
-    margin-top: 34px;
-    margin: 0 auto;
-}
-.header_logo {
-    width: 32px;
-    height: 32px;
-}
+
 .page_name {
     color: white;
     font-size: 15px;
