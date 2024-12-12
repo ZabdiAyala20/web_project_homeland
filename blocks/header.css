@@ -4,13 +4,10 @@
     justify-content: center; 
     align-items: center; 
 }
-
-.page_name {
-    color: white;
-    font-size: 15px;
-
+.header_logo {
+    width: 32px;
+    height: 32px;
 }
-
 .header__title {
     font-weight: 900;
     display: flex;
