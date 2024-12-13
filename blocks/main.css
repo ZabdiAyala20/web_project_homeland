@@ -7,7 +7,19 @@
     color: #ffffff;
     overflow: auto;
 }
-
+.main__text_title{
+    margin-top: 5%;
+display: flex;
+font-size: 69px;
+letter-spacing: 2px;
+line-height: 1;
+}
+.main__author_text{   
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    padding: 5%;
+    }
 
 @media (max-width:768px){
     .main__text-box{

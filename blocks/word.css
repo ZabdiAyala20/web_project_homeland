@@ -1,4 +1,4 @@
-.word_down{
+.header__word_down{
     display: flex;
  flex-direction: column;
  justify-content: center;
