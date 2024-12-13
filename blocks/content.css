@@ -14,3 +14,46 @@ font-size: 69px;
 letter-spacing: 2px;
 line-height: 1;
 }
+
+.content__author-text{   
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    padding: 5%;
+    }
+@media (max-width:768px){
+    .content__text-box{
+        width: 95%;
+    }
+    .content__text-title{
+        font-size:45px;
+        letter-spacing: 0;
+        line-height: 1;
+        
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+@media (max-width: 320px) {
+    .text_title {
+        font-size: 25px;
+        letter-spacing: 0;
+        line-height: 1;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 20px auto;
+    }
+
+    .content__text-box{
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+    .header__content-image {
+        width: 100%; 
+    }
+}

@@ -61,11 +61,11 @@
     .header__title{
      font-size: 50px;
     }
-    .content__image{
+    .header__content-image{
         width: 100%;
         
     }
-    .page_name{
+    .header__page-name{
         font-size: 15px;
     }
     .header__subtitle{
