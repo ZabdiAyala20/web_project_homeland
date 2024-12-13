@@ -4,6 +4,21 @@
     justify-content: center; 
     align-items: center; 
 }
+.header__page-name {
+    color: white;
+    font-size: 15px;
+  
+  }
+.header__logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 69px;
+    margin-top: 34px;
+    margin: 0 auto;
+}
 .header__logo {
     width: 32px;
     height: 32px;
@@ -34,6 +49,12 @@
     text-align: center;
  color: #ffffff;   
  margin-bottom: 5%;
+}
+.header__word_down{
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 @media (max-width:768px){

@@ -4,12 +4,6 @@
   padding: 10px;
   background-color: rgb(27, 27, 27);
 }
-.header__page-name {
-  color: white;
-  font-size: 15px;
-
-}
-
 p, h2, h3 {
   margin: 10px 0;
   line-height: 1.5;
