@@ -25,11 +25,10 @@ line-height: 1;
     .content__text-box{
         width: 95%;
     }
-    .content__text-title{
-        font-size:45px;
-        letter-spacing: 0;
-        line-height: 1;
-        
+    .content__text-title {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        white-space: pre-line;
     }
     .text{
         font-size: 16px;
