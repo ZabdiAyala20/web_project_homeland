@@ -3,6 +3,8 @@
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
+    max-width: 100%;
+    overflow: hidden;
 }
 .header__page-name {
     color: white;
@@ -26,7 +28,9 @@
 .header__content-image{
     display: block;
     margin: 0 auto;
-    width: 100%;
+    max-width:100%;
+    height: auto;
+    object-fit: cover   ;
     }
 .header__title {
     font-weight: 900;
@@ -62,13 +66,23 @@
      font-size: 50px;
     }
     .header__content-image{
-        width: 100%;
-        
+        max-width: 100%;
+        height: auto;
     }
     .header__page-name{
         font-size: 15px;
     }
     .header__subtitle{
         font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .header__content-image {
+        max-width: 100%;
+        height: auto;
+    }
+    .header__subtitle{
+        font-size: 15px;
+        max-width: 100%;
     }
 }
