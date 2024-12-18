@@ -55,7 +55,7 @@ body {
     color: #d1d1d1;
 }
 
-.nfts_artist__names{
+.nfts__artist-names{
     font-size: 1.2rem;
     margin: 0;
     color: white;
@@ -71,7 +71,7 @@ body {
     align-self: flex-start;
     padding: 10px 20px;
     background-color: #007bff;
-    background-image: linear-gradient(45deg, #0278FE, #003A7B);
+    background-image: linear-gradient(to right, #0278FE, #003A7B);
     color: white;
     font-size: 1rem;
     font-weight: bold;
@@ -80,6 +80,5 @@ body {
 }
 
 .nfts__button:hover {
-    background-color: #0056b3;
+    background-color:linear-gradient(to right, #0278FE, #003A7B);
 }
-
