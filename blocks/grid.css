@@ -4,7 +4,7 @@
     align-items: center;
     margin-top: 5%;
 }
-.images__container{
+.container__images{
     display: grid;  
     grid-template-columns: repeat(4, auto);
     grid-template-rows:repeat(4, auto);
