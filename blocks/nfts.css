@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     gap: 40px;
     margin-top: 5%;
+    
 }
 
 .nfts__title-container {
@@ -54,10 +55,11 @@ body {
     color: #d1d1d1;
 }
 
-.nfts_artist__names {
+.nfts_artist__names{
     font-size: 1.2rem;
     margin: 0;
     color: white;
+    margin-bottom: 10px;
 }
 
 .nfts__text {
@@ -69,7 +71,7 @@ body {
     align-self: flex-start;
     padding: 10px 20px;
     background-color: #007bff;
-    background-image: radial-gradient(at 100px  900px, #0278FE, #003A7B);
+    background-image: linear-gradient(45deg, #0278FE, #003A7B);
     color: white;
     font-size: 1rem;
     font-weight: bold;
