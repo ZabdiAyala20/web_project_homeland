@@ -1,10 +1,10 @@
-.container__grid{
+.grid__container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
 }
-.container__images{
+.grid__images-container{
     display: grid;  
     grid-template-columns: repeat(4, auto);
     grid-template-rows:repeat(4, auto);
