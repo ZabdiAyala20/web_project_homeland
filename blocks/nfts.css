@@ -6,7 +6,7 @@ body {
     padding: 20px;
 }
 
-.nft__container {
+.nfts__container {
     max-width: 980px;
     margin: 0 auto;
     display: flex;
@@ -15,37 +15,37 @@ body {
     margin-top: 5%;
 }
 
-.nft__title-container {
+.nfts__title-container {
     text-align: left;
 }
 
-.nft__main-title {
+.nfts__main-title {
     font-size: 3rem;
     font-weight: bold;
     margin: 0;
 }
 
-.nft__content {
+.nfts__content {
     display: flex;
     gap: 20px;
     align-items: flex-start;
 }
 
-.nft__image {
+.nfts__image {
     width: 460px;
     height: 460px;
     object-fit: cover;
     border-radius: 8px;
 }
 
-.nft__text-container {
+.nfts__text-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 600px;
 }
 
-.nft__subtitle {
+.nfts__subtitle {
     font-size: 0.9rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -54,18 +54,18 @@ body {
     color: #d1d1d1;
 }
 
-.nft_artist__names {
+.nfts_artist__names {
     font-size: 1.2rem;
     margin: 0;
     color: white;
 }
 
-.nft__text {
+.nfts__text {
     line-height: 1.6;
     font-size: 1rem;
 }
 
-.nft__button {
+.nfts__button {
     align-self: flex-start;
     padding: 10px 20px;
     background-color: #007bff;
@@ -77,7 +77,7 @@ body {
     cursor: pointer;
 }
 
-.nft__button:hover {
+.nfts__button:hover {
     background-color: #0056b3;
 }
 
