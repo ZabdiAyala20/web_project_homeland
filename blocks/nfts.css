@@ -70,7 +70,7 @@ body {
 .nfts__button {
     align-self: flex-start;
     padding: 10px 20px;
-    background: linear-gradient(to right, #0278FE, #003A7B);
+    background: linear-gradient(135deg, #0278FE, #003A7B);
     color: white;
     font-size: 1rem;
     font-weight: bold;
