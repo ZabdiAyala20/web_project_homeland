@@ -7,13 +7,14 @@ body {
 }
 
 .nfts__container {
-    max-width: 980px;
+    width:980px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-top: 5%;
-    
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .nfts__title-container {
@@ -21,23 +22,26 @@ body {
 }
 
 .nfts__main-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 0;
 }
 
 .nfts__content {
+    justify-content: space-between;
+    position: relative;
     display: flex;
     gap: 20px;
     align-items: flex-start;
 }
 
 .nfts__image {
-    width: 460px;
-    height: 460px;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 2px 2px 5px black;
+    flex-shrink: 0;
 }
 
 .nfts__text-container {
@@ -45,6 +49,7 @@ body {
     flex-direction: column;
     gap: 10px;
     max-width: 600px;
+    flex: 1;
 }
 
 .nfts__subtitle {
@@ -66,20 +71,29 @@ body {
 .nfts__text {
     line-height: 1.6;
     font-size: 1rem;
+    word-wrap: break-word;
 }
 
 .nfts__button {
     align-self: flex-start;
     padding: 10px 20px;
-    background: linear-gradient(to right , #0278FE, #003A7B);
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     color: white;
     font-size: 1rem;
     font-weight: bold;
     border: none;
     cursor: pointer;
     box-shadow: 2px 2px 5px black;
+    margin-top: 10px;
 }
 
+
 .nfts__button:hover {
-    background-color: #0278FE;
+    background-color: #00152d;
+}
+@media (max-width:768px){
+    .nfts__container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
