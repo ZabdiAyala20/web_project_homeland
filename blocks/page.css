@@ -3,8 +3,26 @@
   font-size: 14px;
   padding: 10px;
   background-color: rgb(27, 27, 27);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 p, h2, h3 {
   margin: 10px 0;
   line-height: 1.5;
+}
+@media(max-width: 880px) {
+  .page {
+    padding: 0 10px;
+  }
+  .header__title {
+    font-size: 40px; 
+}
+.gallery__container {
+    padding: 0 5px; 
+}
+.nfts__container {
+    padding: 0 10px;
+}
+
 }

@@ -1,5 +1,5 @@
 .gallery__container{
-    width: 1280px;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,8 @@
 @media (max-width: 1258px) {
     .gallery__images-container {
       grid-template-columns: repeat(3, 1fr);
+      
+      gap: 20px;
     }
   }
 @media (max-width: 968px) {
